@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="680" height="340" viewBox="0 0 680 340" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Inveo Logo — Your Mutual Fund Co-Pilot</title>
+  <desc>Futuristic logo for Inveo featuring a stylized orbit/chart mark with neon cyan and electric purple tones on a dark background, plus the wordmark and tagline.</desc>
+
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&amp;family=Share+Tech+Mono&amp;display=swap');
+      .wordmark { font-family: 'Orbitron', 'Courier New', monospace; font-weight: 900; font-size: 64px; fill: #e0f4ff; letter-spacing: 6px; }
+      .tagline  { font-family: 'Share Tech Mono', 'Courier New', monospace; font-size: 13px; fill: #3a8fa8; letter-spacing: 4px; }
+    </style>
+
+    <linearGradient id="vGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5ff"/>
+      <stop offset="100%" stop-color="#bf00ff"/>
+    </linearGradient>
+    <linearGradient id="chartGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00f5ff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#00f5ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="680" height="340" fill="#030b14" rx="12"/>
+
+  <!-- Grid lines -->
+  <line x1="40" y1="0" x2="40" y2="340" stroke="#0d1f2d" stroke-width="0.5"/>
+  <line x1="640" y1="0" x2="640" y2="340" stroke="#0d1f2d" stroke-width="0.5"/>
+  <line x1="0" y1="40" x2="680" y2="40" stroke="#0d1f2d" stroke-width="0.5"/>
+  <line x1="0" y1="300" x2="680" y2="300" stroke="#0d1f2d" stroke-width="0.5"/>
+
+  <!-- Corner brackets -->
+  <polyline points="62,58 54,58 54,50" stroke="#00f5ff" fill="none" stroke-width="1.5" stroke-linecap="square"/>
+  <polyline points="618,58 626,58 626,50" stroke="#00f5ff" fill="none" stroke-width="1.5" stroke-linecap="square"/>
+  <polyline points="62,282 54,282 54,290" stroke="#00f5ff" fill="none" stroke-width="1.5" stroke-linecap="square"/>
+  <polyline points="618,282 626,282 626,290" stroke="#00f5ff" fill="none" stroke-width="1.5" stroke-linecap="square"/>
+
+  <!-- Orbit ring (dashed ellipse) -->
+  <ellipse cx="145" cy="170" rx="72" ry="42" stroke="#0d2137" fill="none" stroke-width="1" stroke-dasharray="4 4" transform="rotate(-18 145 170)"/>
+
+  <!-- Chart area fill -->
+  <polygon points="97,205 113,188 129,193 145,170 161,155 177,148 193,133" fill="url(#chartGrad)"/>
+
+  <!-- Chart line -->
+  <polyline points="97,205 113,188 129,193 145,170 161,155 177,148 193,133" stroke="#00f5ff" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+
+  <!-- Partial orbit arc -->
+  <path d="M 90,155 A 72,42 0 0 1 200,175" stroke="#00f5ff" fill="none" stroke-width="1.5" transform="rotate(-18 145 170)" stroke-dasharray="6 3" filter="url(#glow)"/>
+
+  <!-- Data nodes -->
+  <circle cx="97"  cy="205" r="5" fill="rgba(0,245,255,0.18)"/>
+  <circle cx="97"  cy="205" r="2.5" fill="#00f5ff" filter="url(#glow)"/>
+  <circle cx="145" cy="170" r="7" fill="rgba(0,245,255,0.18)"/>
+  <circle cx="145" cy="170" r="3" stroke="#00f5ff" fill="none" stroke-width="1.5"/>
+  <circle cx="145" cy="170" r="1.5" fill="#00f5ff" filter="url(#glow)"/>
+  <circle cx="193" cy="133" r="6" fill="rgba(0,245,255,0.18)"/>
+  <circle cx="193" cy="133" r="2.5" fill="#00f5ff" filter="url(#glow)"/>
+
+  <!-- Accent arrow (copilot vector) -->
+  <line x1="155" y1="160" x2="188" y2="128" stroke="#bf00ff" fill="none" stroke-width="1.5" stroke-dasharray="3 2" filter="url(#glow)"/>
+  <polyline points="180,122 188,128 182,136" stroke="#bf00ff" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+
+  <!-- Outer rings -->
+  <circle cx="145" cy="170" r="85" stroke="#0d2a3e" fill="none" stroke-width="0.75"/>
+  <circle cx="145" cy="170" r="88" stroke="#081820" fill="none" stroke-width="0.5"/>
+
+  <!-- Tick marks -->
+  <line x1="145" y1="82"  x2="145" y2="75"  stroke="#0d3a52" stroke-width="1"/>
+  <line x1="145" y1="258" x2="145" y2="265" stroke="#0d3a52" stroke-width="1"/>
+  <line x1="57"  y1="170" x2="50"  y2="170" stroke="#0d3a52" stroke-width="1"/>
+  <line x1="233" y1="170" x2="240" y2="170" stroke="#0d3a52" stroke-width="1"/>
+  <!-- Active tick -->
+  <line x1="145" y1="82" x2="145" y2="74" stroke="#00f5ff" stroke-width="1.5" filter="url(#glow)"/>
+
+  <!-- Mark/wordmark separator -->
+  <line x1="250" y1="110" x2="250" y2="230" stroke="#0d2137" stroke-width="0.75"/>
+
+  <!-- Wordmark -->
+  <text x="272" y="208" class="wordmark">IN</text>
+  <text x="388" y="208" font-family="'Orbitron', 'Courier New', monospace" font-weight="900" font-size="64" letter-spacing="6" fill="url(#vGrad)">V</text>
+  <text x="434" y="208" class="wordmark">EO</text>
+
+  <!-- Underline -->
+  <line x1="272" y1="220" x2="560" y2="220" stroke="url(#vGrad)" stroke-width="1" opacity="0.5"/>
+
+  <!-- Tagline -->
+  <text x="272" y="248" class="tagline">YOUR MUTUAL FUND CO-PILOT</text>
+
+  <!-- Live indicator -->
+  <circle cx="596" cy="76" r="4" fill="#00ff88" filter="url(#glow)"/>
+  <text x="608" y="80" font-family="'Share Tech Mono', monospace" font-size="10" fill="#2a6a50" letter-spacing="1">LIVE</text>
+
+  <!-- Version -->
+  <text x="560" y="292" font-family="'Share Tech Mono', monospace" font-size="10" fill="#0d2a3e" letter-spacing="2">V1.0 // 2025</text>
+</svg>
